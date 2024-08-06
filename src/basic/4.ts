@@ -14,7 +14,7 @@
 
 // Як ви вкажете типи для аргументів і значень цих функцій, що повертаються?
 
-function showMessage(message: any): void {
+function showMessage(message: string): void {
   console.log(message);
 }
 

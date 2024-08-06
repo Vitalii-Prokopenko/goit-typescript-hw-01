@@ -6,6 +6,7 @@
 //   return Object.assign(objA, objB);
 // }
 
-function merge(objA: object, objB: object): object {
+
+function merge<T extends {}, U extends {}>(objA: T, objB: U): object {
   return Object.assign(objA, objB);
 }

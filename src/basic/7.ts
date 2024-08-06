@@ -23,7 +23,7 @@
 type Page = {
   title: string;
   likes: number;
-  accounts: [...string[]];
+  accounts: string[];
   status: string;
   details?: {
     createAt: Date;
